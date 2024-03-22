@@ -1,0 +1,29 @@
+{
+  "name": "token_mint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "keygen": "ts-node ./keygen.ts",
+    "airdrop": "ts-node ./airdrop.ts",
+    "sk_decode": "ts-node ./sk_decode.ts",
+    "spl_init": "ts-node ./spl_init.ts",
+    "spl_mint": "ts-node ./spl_mint.ts",
+    "spl_transfer": "ts-node ./spl_transfer.ts",
+    "spl_metadata": "ts-node ./spl_metadata.ts"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/umi-uploader-bundlr": "^0.9.1",
+    "@solana/spl-token": "^0.4.1",
+    "@solana/web3.js": "^1.91.1",
+    "@types/node": "^20.11.30",
+    "bs58": "^5.0.0",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
