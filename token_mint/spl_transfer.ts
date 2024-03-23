@@ -28,7 +28,7 @@ const to = new PublicKey("C9ZZ4ggdMceMGPZjuseTapyBR2n7WMFfgLiVBwBd7hFV");
     to
   );
 
-  const tx = transfer(
+  const tx = await transfer(
     connection,
     keypair,
     from_ata.address,
