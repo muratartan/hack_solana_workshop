@@ -2,5 +2,25 @@
   "name": "nft_mint",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "nft_image": "ts-node ./nft_image.ts",
+    "nft_metadata": "ts-node ./nft_metadata.ts",
+    "nft_mint": "ts-node ./nft_mint.ts",
+    "sk_decode": "ts-node ./sk_decode.ts"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/umi-uploader-bundlr": "^0.9.1",
+    "@solana/spl-token": "^0.4.2",
+    "@solana/web3.js": "^1.91.1",
+    "@types/node": "^20.11.30",
+    "bs58": "^5.0.0",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
 }
