@@ -8,10 +8,10 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
 const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
 
 // Mint address
-const mint = new PublicKey("EjJ7Ur9DL463nSCkc1d1DGnboPHpqVU4cZnecwsjXe3m");
+const mint = new PublicKey("wite your mint address here");
 
 // Recipient address
-const to = new PublicKey("C9ZZ4ggdMceMGPZjuseTapyBR2n7WMFfgLiVBwBd7hFV");
+const to = new PublicKey("write an address to send tokens");
 
 (async () => {
   const from_ata = await getOrCreateAssociatedTokenAccount(

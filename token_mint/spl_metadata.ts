@@ -13,7 +13,7 @@ import {
 
 import wallet from "./wallet.json";
 
-const mint = publicKey("EjJ7Ur9DL463nSCkc1d1DGnboPHpqVU4cZnecwsjXe3m");
+const mint = publicKey("write your mint address here");
 
 const umi = createUmi("https://api.devnet.solana.com");
 const keypair = umi.eddsa.createKeypairFromSecretKey(new Uint8Array(wallet));
