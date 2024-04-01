@@ -48,9 +48,8 @@ If you're using npm:
 ```
 npm run sk_decode
 ```
-For the following steps, use the same **`npm run <folder name>`** pattern to run the files if you're using npm.
-
-Copy the decoded secret key and paste it into the `wallet.json` file in array format.
+- Copy the decoded secret key and paste it into the `wallet.json` file in array format.
+- For the following steps, use the same **`npm run <folder name>`** pattern to run the files if you're using npm.
 
 3. If you want to generate a new keypair from scratch, open the `keygen.ts` file, run the following command:
 
