@@ -27,8 +27,8 @@ umi.use(signerIdentity(createSignerFromKeypair(umi, keypair)));
       mintAuthority: signer,
     };
     let data: DataV2Args = {
-      name: "Kakashi Hatake",
-      symbol: "KH",
+      name: "token name", // write your token name here
+      symbol: "SOL", // write your token symbol here
       uri: "https://arweave.net/1234",
       sellerFeeBasisPoints: 500,
       creators: null,

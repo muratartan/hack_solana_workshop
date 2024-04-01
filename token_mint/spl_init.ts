@@ -21,5 +21,3 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
     console.log(`Oops, something went wrong: ${error}`);
   }
 })();
-
-// mint address is EjJ7Ur9DL463nSCkc1d1DGnboPHpqVU4cZnecwsjXe3m

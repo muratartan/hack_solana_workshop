@@ -29,7 +29,7 @@ const mint = new PublicKey("write your mint address here");
       mint,
       ata.address,
       keypair.publicKey,
-      100n * token_decimals
+      100n * token_decimals // you can change the token number here, default is 100
     );
     console.log(`Your mint txid: ${mintTx}`);
   } catch (error) {
