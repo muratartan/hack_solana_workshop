@@ -1,6 +1,4 @@
 
-
-````markdown
 # Project Name
 
 This repo aims to create your own token on Solana easily
