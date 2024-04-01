@@ -1,7 +1,7 @@
 
-# How to setup
+# How to
 
-This repo aims to create your own token on Solana easily
+This repo aims to create your own token on **Solana** easily
 
 ## Requirements
 
@@ -34,8 +34,8 @@ npm install
 
 ### A. Keypair Operations
 
-1. If you want to use your web3 wallet address, switch to devnet on your web3 wallet, find and copy your secret key.
-2. Open the `sk_decode.ts` file, paste your secret key where it says "your secret key", and run the following command:
+1. If you want to use your web3 wallet (e.g., Phantom), switch to devnet on your web3 wallet, find and copy your secret key.
+2. Open the `sk_decode.ts` file, paste your secret key where it says **"your secret key"**, and run the following command:
 
 If you're using Yarn:
 
@@ -48,7 +48,7 @@ If you're using npm:
 ```
 npm run sk_decode
 ```
-Use the same `npm run <folder name>` pattern for the following steps if you're using npm.
+For the following steps, use the same **`npm run <folder name>`** pattern to run the files if you're using npm.
 
 Copy the decoded secret key and paste it into the `wallet.json` file in array format.
 
@@ -57,7 +57,7 @@ Copy the decoded secret key and paste it into the `wallet.json` file in array fo
 ```
 yarn keygen
 ```
-Then, securely save the public and secret keys generated and repeat step 2.
+Then, securely save the public and secret keys generated and repeat **Step 2** above.
 
 ### B. Token Creation
 
@@ -66,33 +66,37 @@ Then, securely save the public and secret keys generated and repeat step 2.
 ```
 yarn spl_init
 ```
+Copy the mint address of the newly created token appears in the console and save it.
 
-2. Open the `spl_metadata.ts` file, add your mint address to the `mint` variable, and save the file. Then, create token metadata by running the following command:
+2. Open the `spl_metadata.ts` file.
+- Paste the **mint address** you copied in the previous step into the `mint` variable.
+- In the `data` variable, specify the name of your token under the `name` field and its abbreviation under the `symbol` field.
+- Save the file. Then, create token metadata by running the following command:
 
 ```
 yarn spl_metadata
 ```
+3. Verify Token Creation:
+- Use [Solana Explorer](https://explorer.solana.com/?cluster=devnet) to search for the **mint address** to confirm your token's creation.
+- Ensure you switch to the Devnet for searching.
 
-3. Make sure your token is created by searching the mint address on Solana Explorer.
-4. Open the `spl_mint.ts` file, paste your mint address into the `mint` variable, and run the following command:
-
+4. Mint Tokens:
+- Open the `spl_mint.ts` file.
+- Paste your token's **mint address** into the `mint` variable.
+- Execute
 ```
 yarn spl_mint
 ```
+- Check if the tokens appear in your wallet and confirm that you are on the Devnet.
+- 
+5. Transfer Tokens:
+- If the tokens are in your wallet, you can transfer them to another address using your web3 wallet or programmatically.
+- To transfer programmatically, open the `spl_transfer.ts` file.
+- Paste your **mint address** into the appropriate location.
+- Below the recipient address comment, paste the address you wish to send tokens to into the `to` variable.
+- Execute
+  ```
+  yarn spl_transfer
+  ```
+- Verify the transfer through the link provided in the console.
 
-5. Open your Web3 wallet and check if the tokens are in your wallet.
-
-### Sending Tokens
-
-To send tokens to another address, open the `spl_transfer.ts` file, add the recipient's address to the `to` variable, and run the following command:
-
-```
-yarn spl_transfer
-```
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-````
-
-You can save this content into a file named `README.md`.
