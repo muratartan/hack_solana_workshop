@@ -1,5 +1,5 @@
 
-# Project Name
+# How to setup
 
 This repo aims to create your own token on Solana easily
 
@@ -34,8 +34,8 @@ npm install
 
 ### A. Keypair Operations
 
-1. Switch to devnet using your wallet address and find your secret key.
-2. Open the `sk_decode.ts` file, paste your secret key, and run the following command:
+1. If you want to use your web3 wallet address, switch to devnet on your web3 wallet, find and copy your secret key.
+2. Open the `sk_decode.ts` file, paste your secret key where it says "your secret key", and run the following command:
 
 If you're using Yarn:
 
@@ -48,8 +48,16 @@ If you're using npm:
 ```
 npm run sk_decode
 ```
+Use the same `npm run <folder name>` pattern for the following steps if you're using npm.
 
-3. Copy the decoded secret key and paste it into the `wallet.json` file.
+Copy the decoded secret key and paste it into the `wallet.json` file in array format.
+
+3. If you want to generate a new keypair from scratch, open the `keygen.ts` file, run the following command:
+
+```
+yarn keygen
+```
+Then, securely save the public and secret keys generated and repeat step 2.
 
 ### B. Token Creation
 
