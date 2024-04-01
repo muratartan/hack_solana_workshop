@@ -14,11 +14,7 @@ To run this project on your local machine, you need the following:
 
 ## Installation
 
-1. Clone the project to your machine:
-
-```
-git clone https://github.com/user/repo.git
-```
+1. Copy the project folder to your machine:
 
 2. Open the project with an IDE (e.g., Visual Studio Code).
 
