@@ -69,7 +69,7 @@ Copy the mint address of the newly created token appears in the console and save
 
 2. Open the `spl_metadata.ts` file.
 - Paste the **mint address** you copied in the previous step into the `mint` variable.
-- In the `data` variable, specify the name of your token under the `name` field and its abbreviation under the `symbol` field.
+- In the `data` variable, specify the name of your token to the `name` field and its abbreviation to the `symbol` field.
 - Save the file. Then, create token metadata by running the following command:
 
 ```
