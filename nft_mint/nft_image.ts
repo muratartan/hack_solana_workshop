@@ -30,5 +30,3 @@ umi.use(signerIdentity(signer));
     console.log(`sth went wrong: ${e}`);
   }
 })();
-
-// https://arweave.net/sI5kg9chjJ1_V4lzDMjKVdgN-KkMgdpt-bw-eWRxR74

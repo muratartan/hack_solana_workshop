@@ -19,7 +19,7 @@ umi.use(signerIdentity(signer));
 (async () => {
   try {
     const image =
-      "https://arweave.net/sI5kg9chjJ1_V4lzDMjKVdgN-KkMgdpt-bw-eWRxR74";
+      "https://arweave.net/sI5kg9chjJ1_V4lzDMjKVdgN-KkMgdpt-bw-eWRxR74"; // delete this uri and paste your own image uri here
     const metadata = {
       name: "pixel carpet",
       symbol: "PC",

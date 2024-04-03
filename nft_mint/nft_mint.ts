@@ -27,7 +27,7 @@ const mint = generateSigner(umi);
 (async () => {
   try {
     const uri =
-      "https://arweave.net/DYTSgerCE3Xd_R2-n5oXUCqD-3UQgZU_stKeorL_uVs";
+      "https://arweave.net/DYTSgerCE3Xd_R2-n5oXUCqD-3UQgZU_stKeorL_uVs"; // delete this uri and paste your own image uri obtained from "nft_metadata" file
     let tx = createNft(umi, {
       mint,
       name: "pixel carpet",
