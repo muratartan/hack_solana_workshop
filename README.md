@@ -33,7 +33,7 @@ To use the projects in this repository, simply clone the project files to your l
 
 ### Contributions
 
-Contributions to this repository are welcome. If you have improvements, bug fixes, or additional projects to contribute, please follow the standard GitHub workflow for pull requests.
+Contributions to this repository are welcome. If you have improvements, bug fixes, or additional projects to contribute, feel free to open an issue or submit a pull request.
 
 
 ### Acknowledgements
