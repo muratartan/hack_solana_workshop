@@ -4,3 +4,8 @@
   84, 235, 149, 204, 157, 147, 158, 198, 44, 67, 63, 50, 26, 169, 30, 21, 101,
   70, 186, 214, 173, 5, 115, 182, 10, 28, 190, 178, 157, 133, 145
 ]
+
+// this is a fake private key, delete it and paste your own private key here
+// put your secret key in square brackets
+// DO NOT PUSH your secret key to Github
+// delete all of these comment lines, because COMMENTS ARE NOT PERMITTED IN JSON FILES

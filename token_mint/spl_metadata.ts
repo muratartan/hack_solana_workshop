@@ -1,6 +1,9 @@
 // metadata account is a part of "token mint account"
 // it stores detailed info about the token
 
+// Umi is a new framework for building Javascrript clients for Solana
+// It's the alternative of "@solana/web3.js" and provides more functionality
+
 import { createUmi } from "@metaplex-foundation/umi-bundle-defaults";
 import {
   createMetadataAccountV3,
