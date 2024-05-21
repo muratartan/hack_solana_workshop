@@ -38,7 +38,7 @@ Contributions to this repository are welcome. If you have improvements, bug fixe
 
 ### Acknowledgements
 
-This repository is made possible by the supports of [Superteam Turkey](https://tr.superteam.fun/) and the Solana community.
+This repository is made possible by the supports of [WBA](https://www.web3builders.dev/), [Superteam Turkey](https://tr.superteam.fun/) and the Solana community.
 
 ---
 **Note**: This repository is for educational purposes only and should not be used for production purposes without proper testing and validation.
