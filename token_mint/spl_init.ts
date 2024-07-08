@@ -2,6 +2,8 @@ import { Keypair, Connection, Commitment } from "@solana/web3.js";
 import { createMint } from "@solana/spl-token";
 import wallet from "./wallet.json";
 
+// This program creates a "token mint" account on-chain
+
 // Load the keypair from the wallet.json file
 const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
 
